@@ -1,0 +1,13 @@
+
+get http://localhost:8000/user
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQG5hbWFzeXMuY28iLCJpYXQiOjE2MjExNDI4MjV9.7piC8B2CFytXtOBpyQUyR4nZLjsRvaj02wtFy86r9oY
+
+###
+
+POST http://localhost:8000/login
+Content-Type: application/json
+
+{
+    "email" : "admin@namasys.co",
+    "password": "admin123"
+}
